@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include retail_management *.css
+recursive-include retail_management *.csv
+recursive-include retail_management *.html
+recursive-include retail_management *.ico
+recursive-include retail_management *.js
+recursive-include retail_management *.json
+recursive-include retail_management *.md
+recursive-include retail_management *.png
+recursive-include retail_management *.py
+recursive-include retail_management *.svg
+recursive-include retail_management *.txt
+recursive-exclude retail_management *.pyc
