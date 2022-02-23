@@ -7,4 +7,4 @@ from frappe.model.document import Document
 class RMSalesInvoice(Document):
 	@frappe.whitelist()
 	def get_price(self):
-		return "hello"	
+		return "helloo"	

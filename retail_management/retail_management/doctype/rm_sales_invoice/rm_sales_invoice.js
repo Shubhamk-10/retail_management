@@ -14,6 +14,7 @@ frappe.ui.form.on("RM Sales Invoice",{
 				"filters":{
 					"is_walk_in":"1"
 				}
+			// print("fgdhd")
 			}
 		})
 	}

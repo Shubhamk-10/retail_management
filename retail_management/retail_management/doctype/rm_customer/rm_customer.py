@@ -8,3 +8,4 @@ class RMCustomer(Document):
 	def before_save(self):
 		if not self.customer_name:
 			frappe.throw("Customer name is required")
+		#print("hhhhhhh")
